@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -77,7 +77,6 @@
 <wire x1="160" y1="0" x2="160" y2="100" width="0" layer="20"/>
 <wire x1="160" y1="100" x2="0" y2="100" width="0" layer="20"/>
 <wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
-<dimension x1="-35" y1="-7.5" x2="-35" y2="-10.5" x3="-35" y3="-9" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="SiPM_C3">
@@ -385,57 +384,6 @@
 </package>
 </packages>
 </library>
-<library name="SiPM_Trim_resistor">
-<packages>
-<package name="POT_3266W">
-<pad name="1" x="-5.08" y="1.4224" drill="0.9652" diameter="1.524" shape="square"/>
-<pad name="2" x="-2.54" y="-1.4224" drill="0.9652" diameter="1.524"/>
-<pad name="3" x="0" y="1.4224" drill="0.9652" diameter="1.524"/>
-<wire x1="-6.096" y1="-2.4384" x2="1.016" y2="-2.4384" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-2.4384" x2="1.016" y2="-0.4318" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="2.4384" x2="-6.096" y2="2.4384" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="2.4384" x2="-6.096" y2="0.9906" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="-0.9906" x2="-6.096" y2="-2.4384" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.4318" x2="1.016" y2="2.4384" width="0.1524" layer="21"/>
-<text x="-7.6708" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<wire x1="-6.096" y1="-2.4384" x2="1.016" y2="-2.4384" width="0.1524" layer="51"/>
-<wire x1="1.016" y1="-2.4384" x2="1.016" y2="2.4384" width="0.1524" layer="51"/>
-<wire x1="1.016" y1="2.4384" x2="-6.096" y2="2.4384" width="0.1524" layer="51"/>
-<wire x1="-6.096" y1="2.4384" x2="-6.096" y2="-2.4384" width="0.1524" layer="51"/>
-<text x="-7.6708" y="-0.635" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<text x="-5.8166" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-4.2672" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-</package>
-</packages>
-</library>
-<library name="con-samtec" urn="urn:adsk.eagle:library:184">
-<description>&lt;b&gt;Samtec Connectors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SSW-101-02-G-D" library_version="2">
-<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
-Source: Samtec SSW.pdf</description>
-<wire x1="-1.399" y1="2.425" x2="1.399" y2="2.425" width="0.2032" layer="21"/>
-<wire x1="1.399" y1="2.425" x2="1.399" y2="-2.425" width="0.2032" layer="21"/>
-<wire x1="1.399" y1="-2.425" x2="-1.399" y2="-2.425" width="0.2032" layer="21"/>
-<wire x1="-1.399" y1="-2.425" x2="-1.399" y2="2.425" width="0.2032" layer="21"/>
-<wire x1="-0.745" y1="-0.515" x2="0.755" y2="-0.515" width="0.2032" layer="51"/>
-<wire x1="0.755" y1="-0.515" x2="0.755" y2="-2.015" width="0.2032" layer="51"/>
-<wire x1="0.755" y1="-2.015" x2="-0.745" y2="-2.015" width="0.2032" layer="51"/>
-<wire x1="-0.745" y1="-2.015" x2="-0.745" y2="-0.515" width="0.2032" layer="51"/>
-<wire x1="-0.745" y1="2.025" x2="0.755" y2="2.025" width="0.2032" layer="51"/>
-<wire x1="0.755" y1="2.025" x2="0.755" y2="0.525" width="0.2032" layer="51"/>
-<wire x1="0.755" y1="0.525" x2="-0.745" y2="0.525" width="0.2032" layer="51"/>
-<wire x1="-0.745" y1="0.525" x2="-0.745" y2="2.025" width="0.2032" layer="51"/>
-<pad name="1" x="0" y="-1.27" drill="1" diameter="1.5" shape="octagon"/>
-<pad name="2" x="0" y="1.27" drill="1" diameter="1.5" shape="octagon"/>
-<text x="-0.508" y="-4.318" size="1.6764" layer="21" font="vector">1</text>
-<text x="-0.508" y="2.794" size="1.6764" layer="21" font="vector">2</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.175" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -634,6 +582,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CGA6P3X7R1H335K250AB" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-37.5666" y="38.735" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="TDK_2015_05_22" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-36.0172" y="38.735" size="1.27" layer="27" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="TDK" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C2" library="SiPM_C4" package="CAP_3225_TDK" value="C3225X7R1H105K160AA" x="-58.42" y="39.37" smashed="yes">
@@ -641,6 +590,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C3225X7R1H105K160AA" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-61.6966" y="38.735" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="TDK_2015_05_22" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-60.1472" y="38.735" size="1.27" layer="27" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="TDK" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C3" library="SiPM_C5" package="CAP_1210_AVX" value="1210AC101KAT1A" x="-26.67" y="54.61" smashed="yes">
@@ -649,6 +599,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="1210AC101KAT1A" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-29.9466" y="53.975" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="AVX_2015_05_20" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-28.3972" y="53.975" size="1.27" layer="27" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="AVX Corporation" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C4" library="SiPM_C6" package="CAP_3225_TDK" value="C3225C0G1H104J250AA" x="-33.02" y="43.18" smashed="yes">
@@ -656,6 +607,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C3225C0G1H104J250AA" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-36.2966" y="42.545" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="TDK_2015_05_22" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-34.7472" y="42.545" size="1.27" layer="27" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="TDK" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C5" library="SiPM_C6" package="CAP_3225_TDK" value="C3225C0G1H104J250AA" x="-57.15" y="43.18" smashed="yes">
@@ -663,6 +615,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C3225C0G1H104J250AA" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-60.4266" y="42.545" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="TDK_2015_05_22" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-58.8772" y="42.545" size="1.27" layer="27" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="TDK" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C6" library="SiPM_C6" package="CAP_3225_TDK" value="C3225C0G1H104J250AA" x="-33.02" y="46.99" smashed="yes">
@@ -670,6 +623,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C3225C0G1H104J250AA" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-36.2966" y="46.355" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="TDK_2015_05_22" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-34.7472" y="46.355" size="1.27" layer="27" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="TDK" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C7" library="SiPM_C6" package="CAP_3225_TDK" value="C3225C0G1H104J250AA" x="-57.15" y="46.99" smashed="yes">
@@ -677,6 +631,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C3225C0G1H104J250AA" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-60.4266" y="46.355" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="TDK_2015_05_22" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-58.8772" y="46.355" size="1.27" layer="27" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="TDK" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C8" library="SiPM_C6" package="CAP_3225_TDK" value="C3225C0G1H104J250AA" x="-33.02" y="50.8" smashed="yes">
@@ -684,6 +639,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C3225C0G1H104J250AA" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-36.2966" y="50.165" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="TDK_2015_05_22" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-34.7472" y="50.165" size="1.27" layer="27" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="TDK" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C9" library="SiPM_C6" package="CAP_3225_TDK" value="C3225C0G1H104J250AA" x="-57.15" y="50.8" smashed="yes">
@@ -691,9 +647,10 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C3225C0G1H104J250AA" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-60.4266" y="50.165" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="TDK_2015_05_22" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-58.8772" y="50.165" size="1.27" layer="27" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="TDK" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="VIN" library="SiPM_banana" package="TE_350180" value="350180" x="-27.94" y="5.08" smashed="yes">
+<element name="J1" library="SiPM_banana" package="TE_350180" value="350180" x="-27.94" y="5.08" smashed="yes">
 <attribute name="AVAILABILITY" value="Good" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="COMMENT" value="350180" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Connector TeStraight Probe RCP 3 Position Solder Right Angle Thru-Hole 1 Port " x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -703,8 +660,9 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/350180/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-28.94" y="2.08" size="1.27" layer="27" align="top-left"/>
 </element>
-<element name="GND" library="SiPM_banana" package="TE_350180" value="350180" x="-44.45" y="5.08" smashed="yes">
+<element name="J2" library="SiPM_banana" package="TE_350180" value="350180" x="-44.45" y="5.08" smashed="yes">
 <attribute name="AVAILABILITY" value="Good" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="COMMENT" value="350180" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Connector TeStraight Probe RCP 3 Position Solder Right Angle Thru-Hole 1 Port " x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -714,8 +672,9 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/350180/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-45.45" y="2.08" size="1.27" layer="27" align="top-left"/>
 </element>
-<element name="+FB" library="SiPM_banana" package="TE_350180" value="350180" x="-60.96" y="5.08" smashed="yes">
+<element name="J3" library="SiPM_banana" package="TE_350180" value="350180" x="-60.96" y="5.08" smashed="yes">
 <attribute name="AVAILABILITY" value="Good" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="COMMENT" value="350180" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Connector TeStraight Probe RCP 3 Position Solder Right Angle Thru-Hole 1 Port " x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -727,7 +686,7 @@ design rules under a new name.</description>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/350180/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-61.96" y="2.08" size="1.27" layer="27" align="top-left"/>
 </element>
-<element name="-FB" library="SiPM_banana" package="TE_350180" value="350180" x="-27.94" y="16.51" smashed="yes">
+<element name="J4" library="SiPM_banana" package="TE_350180" value="350180" x="-27.94" y="16.51" smashed="yes">
 <attribute name="AVAILABILITY" value="Good" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="COMMENT" value="350180" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Connector TeStraight Probe RCP 3 Position Solder Right Angle Thru-Hole 1 Port " x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -737,8 +696,9 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/350180/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-28.94" y="13.51" size="1.27" layer="27" align="top-left"/>
 </element>
-<element name="VOUT" library="SiPM_banana" package="TE_350180" value="350180" x="-44.45" y="16.51" smashed="yes">
+<element name="J5" library="SiPM_banana" package="TE_350180" value="350180" x="-44.45" y="16.51" smashed="yes">
 <attribute name="AVAILABILITY" value="Good" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="COMMENT" value="350180" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Connector TeStraight Probe RCP 3 Position Solder Right Angle Thru-Hole 1 Port " x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -748,12 +708,14 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/350180/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-45.45" y="13.51" size="1.27" layer="27" align="top-left"/>
 </element>
 <element name="R1" library="SiPM_R6" package="RC0603N_YAG" value="RC0603FR-072ML" x="-46.99" y="58.42" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR-072ML" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-50.2666" y="57.785" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="Yageo_2008-01-01_ChipRes1a" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-48.7172" y="57.785" size="1.27" layer="27" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="Yageo" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R2" library="SiPM_R7" package="RC0603N_YAG" value="RT0603BRD0710RL" x="-46.99" y="54.61" smashed="yes">
@@ -761,6 +723,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RT0603BRD0710RL" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-50.2666" y="53.975" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="Yageo_2008-01-01_ChipRes2b" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-48.7172" y="53.975" size="1.27" layer="27" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="Yageo" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R3" library="SiPM_R7" package="RC0603N_YAG" value="RT0603BRD0710RL" x="-29.21" y="58.42" smashed="yes">
@@ -768,6 +731,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RT0603BRD0710RL" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-32.4866" y="57.785" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="Yageo_2008-01-01_ChipRes2b" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.9372" y="57.785" size="1.27" layer="27" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="Yageo" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R4" library="SiPM_R11" package="RES_R0603_ROM" value="ESR03EZPF1001" x="-26.67" y="60.96" smashed="yes">
@@ -775,6 +739,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ESR03EZPF1001" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-29.9466" y="60.325" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="Rohm_2015_05_27" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-28.3972" y="60.325" size="1.27" layer="27" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="ROHM Semiconductor" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R5" library="SiPM_R11" package="RES_R0603_ROM" value="ESR03EZPF1001" x="-44.45" y="60.96" smashed="yes">
@@ -782,6 +747,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ESR03EZPF1001" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-47.7266" y="60.325" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="Rohm_2015_05_27" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-46.1772" y="60.325" size="1.27" layer="27" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="ROHM Semiconductor" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R6" library="SiPM_R11" package="RES_R0603_ROM" value="ESR03EZPF1001" x="-26.67" y="63.5" smashed="yes">
@@ -789,97 +755,64 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ESR03EZPF1001" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-29.9466" y="62.865" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="Rohm_2015_05_27" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-28.3972" y="62.865" size="1.27" layer="27" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="ROHM Semiconductor" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="AMP1" library="SiPM_AD8000" package="RD_8_1_ADI" value="AD8000YRDZ-REEL7" x="-30.48" y="25.4" smashed="yes">
+<element name="U1" library="SiPM_AD8000" package="RD_8_1_ADI" value="AD8000YRDZ-REEL7" x="-30.48" y="25.4" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_Jessica" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AD8000YRDZ-REEL7" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-33.7566" y="24.765" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="Analog_2019-03-01" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-32.2072" y="24.765" size="1.27" layer="27" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="Analog Devices Inc" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="AMP2" library="SiPM_AD8000" package="RD_8_1_ADI" value="AD8000YRDZ-REEL7" x="-52.07" y="25.4" smashed="yes">
+<element name="U2" library="SiPM_AD8000" package="RD_8_1_ADI" value="AD8000YRDZ-REEL7" x="-52.07" y="25.4" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_Jessica" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AD8000YRDZ-REEL7" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-55.3466" y="24.765" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="Analog_2019-03-01" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-53.7972" y="24.765" size="1.27" layer="27" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="Analog Devices Inc" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="AMP3" library="SiPM_AD8000" package="RD_8_1_ADI" value="AD8000YRDZ-REEL7" x="-30.48" y="33.02" smashed="yes">
+<element name="U3" library="SiPM_AD8000" package="RD_8_1_ADI" value="AD8000YRDZ-REEL7" x="-30.48" y="33.02" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_Jessica" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AD8000YRDZ-REEL7" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-33.7566" y="32.385" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="Analog_2019-03-01" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-32.2072" y="32.385" size="1.27" layer="27" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="Analog Devices Inc" x="0" y="0" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R7" library="SiPM_Trim_resistor" package="POT_3266W" value="3266W-1-102LF" x="-54.61" y="-2.54" smashed="yes">
-<attribute name="BUILT_BY" value="EMA_UL_Team" x="-54.61" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="3266W-1-102LF" x="-54.61" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-60.4266" y="-3.175" size="1.27" layer="25" ratio="6" rot="SR0"/>
-<attribute name="SOURCELIBRARY" value="Bourns_2012-08-08" x="-54.61" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Bourns Electronics" x="-54.61" y="-2.54" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R8" library="SiPM_Trim_resistor" package="POT_3266W" value="3266W-1-102LF" x="-54.61" y="-7.62" smashed="yes">
-<attribute name="BUILT_BY" value="EMA_UL_Team" x="-54.61" y="-7.62" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="3266W-1-102LF" x="-54.61" y="-7.62" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-60.4266" y="-8.255" size="1.27" layer="25" ratio="6" rot="SR0"/>
-<attribute name="SOURCELIBRARY" value="Bourns_2012-08-08" x="-54.61" y="-7.62" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Bourns Electronics" x="-54.61" y="-7.62" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R9" library="SiPM_R11" package="RES_R0603_ROM" value="ESR03EZPF1001" x="-58.42" y="-11.43" smashed="yes">
-<attribute name="BUILT_BY" value="EMA_UL_Team" x="-58.42" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ESR03EZPF1001" x="-58.42" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-61.6966" y="-12.065" size="1.27" layer="25" ratio="6" rot="SR0"/>
-<attribute name="SOURCELIBRARY" value="Rohm_2015_05_27" x="-58.42" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="ROHM Semiconductor" x="-58.42" y="-11.43" size="1.778" layer="27" display="off"/>
-</element>
-<element name="MPPC" library="con-samtec" library_urn="urn:adsk.eagle:library:184" package="SSW-101-02-G-D" value="SSW-101-02-G-D" x="-36.83" y="-8.89" smashed="yes">
-<attribute name="MF" value="Samtec Inc." x="-36.83" y="-8.89" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="SSW-101-02-G-D" x="-36.83" y="-8.89" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-38.735" y="-11.43" size="1.27" layer="25" rot="R90"/>
-<attribute name="OC_FARNELL" value="unknown" x="-36.83" y="-8.89" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="82P1456" x="-36.83" y="-8.89" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
 <signal name="VIN">
-<contactref element="VIN" pad="1"/>
+<contactref element="J1" pad="1"/>
 <contactref element="C1" pad="1"/>
 <contactref element="C2" pad="1"/>
 <contactref element="R1" pad="2"/>
-<contactref element="MPPC" pad="1"/>
-<wire x1="-27.94" y1="5.08" x2="-36.83" y2="-10.16" width="0" layer="19" extent="1-1"/>
 <wire x1="-36.1696" y1="39.37" x2="-27.94" y2="5.08" width="0" layer="19" extent="1-1"/>
 <wire x1="-46.2153" y1="58.42" x2="-36.1696" y2="39.37" width="0" layer="19" extent="1-1"/>
 <wire x1="-60.2996" y1="39.37" x2="-46.2153" y2="58.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
-<contactref element="GND" pad="1"/>
+<contactref element="J2" pad="1"/>
 <contactref element="C4" pad="2"/>
 <contactref element="C5" pad="2"/>
-<contactref element="AMP1" pad="EPAD"/>
-<contactref element="AMP1" pad="3"/>
+<contactref element="U1" pad="EPAD"/>
+<contactref element="U1" pad="3"/>
 <contactref element="C6" pad="2"/>
 <contactref element="C7" pad="2"/>
-<contactref element="AMP2" pad="EPAD"/>
+<contactref element="U2" pad="EPAD"/>
 <contactref element="C8" pad="2"/>
 <contactref element="C9" pad="2"/>
-<contactref element="AMP3" pad="EPAD"/>
+<contactref element="U3" pad="EPAD"/>
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="2"/>
 <contactref element="R1" pad="1"/>
 <contactref element="R2" pad="2"/>
-<contactref element="R7" pad="1"/>
-<contactref element="R8" pad="1"/>
-<contactref element="AMP2" pad="3"/>
-<contactref element="AMP3" pad="3"/>
-<wire x1="-59.69" y1="-1.1176" x2="-59.69" y2="-6.1976" width="0" layer="19" extent="1-1"/>
-<wire x1="-44.45" y1="5.08" x2="-59.69" y2="-1.1176" width="0" layer="19" extent="1-1"/>
 <wire x1="-52.07" y1="25.4" x2="-44.45" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="-54.79415" y1="24.765" x2="-52.07" y2="25.4" width="0" layer="19" extent="1-1"/>
 <wire x1="-56.5404" y1="39.37" x2="-52.07" y2="25.4" width="0" layer="19" extent="1-1"/>
 <wire x1="-55.2704" y1="43.18" x2="-56.5404" y2="39.37" width="0" layer="19" extent="1-1"/>
 <wire x1="-55.2704" y1="46.99" x2="-55.2704" y2="43.18" width="0" layer="19" extent="1-1"/>
@@ -891,17 +824,16 @@ design rules under a new name.</description>
 <wire x1="-31.1404" y1="43.18" x2="-31.1404" y2="46.99" width="0" layer="19" extent="1-1"/>
 <wire x1="-32.4104" y1="39.37" x2="-31.1404" y2="43.18" width="0" layer="19" extent="1-1"/>
 <wire x1="-30.48" y1="33.02" x2="-32.4104" y2="39.37" width="0" layer="19" extent="1-1"/>
-<wire x1="-33.20415" y1="32.385" x2="-30.48" y2="33.02" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.48" y1="25.4" x2="-33.20415" y2="32.385" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.48" y1="25.4" x2="-30.48" y2="33.02" width="0" layer="19" extent="1-1"/>
 <wire x1="-33.20415" y1="24.765" x2="-30.48" y2="25.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+FB">
-<contactref element="+FB" pad="1"/>
-<contactref element="AMP1" pad="7"/>
+<contactref element="J3" pad="1"/>
+<contactref element="U1" pad="7"/>
 <contactref element="C5" pad="1"/>
-<contactref element="AMP2" pad="7"/>
+<contactref element="U2" pad="7"/>
 <contactref element="C7" pad="1"/>
-<contactref element="AMP3" pad="7"/>
+<contactref element="U3" pad="7"/>
 <contactref element="C9" pad="1"/>
 <wire x1="-49.34585" y1="26.035" x2="-60.96" y2="5.08" width="0" layer="19" extent="1-1"/>
 <wire x1="-59.0296" y1="43.18" x2="-49.34585" y2="26.035" width="0" layer="19" extent="1-1"/>
@@ -911,12 +843,12 @@ design rules under a new name.</description>
 <wire x1="-27.75585" y1="33.655" x2="-27.75585" y2="26.035" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="-FB">
-<contactref element="-FB" pad="1"/>
-<contactref element="AMP1" pad="4"/>
+<contactref element="J4" pad="1"/>
+<contactref element="U1" pad="4"/>
 <contactref element="C4" pad="1"/>
-<contactref element="AMP2" pad="4"/>
+<contactref element="U2" pad="4"/>
 <contactref element="C6" pad="1"/>
-<contactref element="AMP3" pad="4"/>
+<contactref element="U3" pad="4"/>
 <contactref element="C8" pad="1"/>
 <wire x1="-33.20415" y1="23.495" x2="-54.79415" y2="23.495" width="0" layer="19" extent="1-1"/>
 <wire x1="-33.20415" y1="31.115" x2="-33.20415" y2="23.495" width="0" layer="19" extent="1-1"/>
@@ -926,90 +858,72 @@ design rules under a new name.</description>
 <wire x1="-34.8996" y1="50.8" x2="-34.8996" y2="46.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VOUT">
-<contactref element="VOUT" pad="1"/>
-<contactref element="AMP3" pad="6"/>
-<wire x1="-27.75585" y1="32.385" x2="-44.45" y2="16.51" width="0" layer="19" extent="1-1"/>
+<contactref element="J5" pad="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R2" pad="1"/>
 <contactref element="R3" pad="2"/>
 <contactref element="C3" pad="1"/>
-<contactref element="MPPC" pad="2"/>
-<wire x1="-47.7647" y1="54.61" x2="-36.83" y2="-7.62" width="0" layer="19" extent="1-1"/>
-<wire x1="-28.1728" y1="54.61" x2="-47.7647" y2="54.61" width="0" layer="19" extent="1-1"/>
-<wire x1="-28.4353" y1="58.42" x2="-28.1728" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.1728" y1="54.61" x2="-28.4353" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="-47.7647" y1="54.61" x2="-28.1728" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="C3" pad="2"/>
 <contactref element="R3" pad="1"/>
-<contactref element="R7" pad="3"/>
-<wire x1="-25.1672" y1="54.61" x2="-54.61" y2="-1.1176" width="0" layer="19" extent="1-1"/>
 <wire x1="-29.9847" y1="58.42" x2="-25.1672" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
-<contactref element="AMP1" pad="8"/>
+<contactref element="U1" pad="8"/>
 </signal>
 <signal name="N$5">
-<contactref element="AMP1" pad="5"/>
+<contactref element="U1" pad="5"/>
 </signal>
 <signal name="N$7">
-<contactref element="AMP1" pad="1"/>
+<contactref element="U1" pad="1"/>
 <contactref element="R4" pad="2"/>
 <wire x1="-33.20415" y1="27.305" x2="-25.92" y2="60.96" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="N$8">
+<contactref element="R4" pad="1"/>
+<contactref element="U1" pad="2"/>
+<wire x1="-33.20415" y1="26.035" x2="-27.42" y2="60.96" width="0" layer="19" extent="1-1"/>
+</signal>
 <signal name="N$9">
-<contactref element="AMP2" pad="8"/>
+<contactref element="U2" pad="8"/>
+</signal>
+<signal name="N$10">
+<contactref element="U2" pad="5"/>
 </signal>
 <signal name="N$11">
-<contactref element="AMP2" pad="1"/>
+<contactref element="U2" pad="1"/>
 <contactref element="R5" pad="2"/>
 <wire x1="-43.7" y1="60.96" x2="-54.79415" y2="27.305" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
-<contactref element="AMP2" pad="2"/>
+<contactref element="U2" pad="2"/>
 <contactref element="R5" pad="1"/>
 <wire x1="-45.2" y1="60.96" x2="-54.79415" y2="26.035" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="N$13">
+<contactref element="U2" pad="3"/>
+<contactref element="U3" pad="3"/>
+<wire x1="-33.20415" y1="32.385" x2="-54.79415" y2="24.765" width="0" layer="19" extent="1-1"/>
+</signal>
 <signal name="N$14">
-<contactref element="AMP3" pad="8"/>
+<contactref element="U3" pad="8"/>
 </signal>
 <signal name="N$15">
-<contactref element="AMP3" pad="5"/>
+<contactref element="U3" pad="5"/>
 </signal>
 <signal name="N$16">
-<contactref element="AMP3" pad="1"/>
+<contactref element="U3" pad="1"/>
 <contactref element="R6" pad="2"/>
 <wire x1="-33.20415" y1="34.925" x2="-25.92" y2="63.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
-<contactref element="AMP3" pad="2"/>
+<contactref element="U3" pad="2"/>
 <contactref element="R6" pad="1"/>
-<contactref element="R9" pad="2"/>
-<wire x1="-33.20415" y1="33.655" x2="-57.67" y2="-11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="-27.42" y1="63.5" x2="-33.20415" y2="33.655" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$4">
-<contactref element="R7" pad="2"/>
-<contactref element="R4" pad="1"/>
-<contactref element="AMP1" pad="2"/>
-<wire x1="-33.20415" y1="26.035" x2="-57.15" y2="-3.9624" width="0" layer="19" extent="1-1"/>
-<wire x1="-27.42" y1="60.96" x2="-33.20415" y2="26.035" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$8">
-<contactref element="R8" pad="2"/>
-</signal>
-<signal name="N$1">
-<contactref element="AMP1" pad="6"/>
-<contactref element="R8" pad="3"/>
-<wire x1="-27.75585" y1="24.765" x2="-54.61" y2="-6.1976" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$10">
-<contactref element="AMP2" pad="5"/>
-</signal>
-<signal name="N$18">
-<contactref element="AMP2" pad="6"/>
-<contactref element="R9" pad="1"/>
-<wire x1="-49.34585" y1="24.765" x2="-59.17" y2="-11.43" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.20415" y1="33.655" x2="-27.42" y2="63.5" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -1021,11 +935,4 @@ design rules under a new name.</description>
 </mfgpreviewcolors>
 </board>
 </drawing>
-<compatibility>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
-</note>
-</compatibility>
 </eagle>
