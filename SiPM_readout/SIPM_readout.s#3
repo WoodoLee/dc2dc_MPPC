@@ -1451,72 +1451,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="SiPM_socket">
-<packages>
-<package name="CONN_RS1-02-G_ADM">
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.524"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.524"/>
-<wire x1="-1.651" y1="-1.3208" x2="4.191" y2="-1.3208" width="0.1524" layer="21"/>
-<wire x1="4.191" y1="-1.3208" x2="4.191" y2="1.3208" width="0.1524" layer="21"/>
-<wire x1="4.191" y1="1.3208" x2="-1.651" y2="1.3208" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="1.3208" x2="-1.651" y2="-1.3208" width="0.1524" layer="21"/>
-<wire x1="-3.048" y1="0" x2="-3.81" y2="0" width="0.508" layer="21" curve="-180"/>
-<wire x1="-3.81" y1="0" x2="-3.048" y2="0" width="0.508" layer="21" curve="-180"/>
-<wire x1="-1.524" y1="-1.1938" x2="4.064" y2="-1.1938" width="0.1524" layer="51"/>
-<wire x1="4.064" y1="-1.1938" x2="4.064" y2="1.1938" width="0.1524" layer="51"/>
-<wire x1="4.064" y1="1.1938" x2="-1.524" y2="1.1938" width="0.1524" layer="51"/>
-<wire x1="-1.524" y1="1.1938" x2="-1.524" y2="-1.1938" width="0.1524" layer="51"/>
-<wire x1="0.381" y1="1.905" x2="-0.381" y2="1.905" width="0.508" layer="51" curve="-180"/>
-<wire x1="-0.381" y1="1.905" x2="0.381" y2="1.905" width="0.508" layer="51" curve="-180"/>
-<wire x1="-3.048" y1="0" x2="-3.81" y2="0" width="0.508" layer="22" curve="-180"/>
-<wire x1="-3.81" y1="0" x2="-3.048" y2="0" width="0.508" layer="22" curve="-180"/>
-<text x="-2.0066" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-0.4572" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-</package>
-</packages>
-<symbols>
-<symbol name="CONN_002P_000C_1">
-<pin name="1" x="0" y="0" visible="pad" length="middle" direction="pas"/>
-<pin name="2" x="0" y="-2.54" visible="pad" length="middle" direction="pas"/>
-<wire x1="10.16" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="0" x2="8.89" y2="0.8382" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="8.89" y2="-1.7018" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="0" x2="8.89" y2="-0.8382" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="8.89" y2="-3.3782" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="12.7" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="-5.08" x2="12.7" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
-<text x="4.1656" y="5.3086" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="RS1-02-G" prefix="J">
-<gates>
-<gate name="A" symbol="CONN_002P_000C_1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CONN_RS1-02-G_ADM">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="BUILT_BY" value="EMA_Cory" constant="no"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" constant="no"/>
-<attribute name="DATASHEET" value="http://www.adam-tech.com/downloader.php?p=RS1-XX-G.pdf" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RS1-02-G" constant="no"/>
-<attribute name="SOURCELIBRARY" value="Adam_Tech_2020-08-21" constant="no"/>
-<attribute name="VENDOR" value="Adam Technologies" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1555,7 +1489,6 @@
 <part name="C8" library="SiPM_C6" deviceset="C3225C0G1H104J250AA" device=""/>
 <part name="C9" library="SiPM_C6" deviceset="C3225C0G1H104J250AA" device=""/>
 <part name="R6" library="SiPM_R11" deviceset="ESR03EZPF1001" device=""/>
-<part name="J6" library="SiPM_socket" deviceset="RS1-02-G" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1639,9 +1572,6 @@
 </instance>
 <instance part="R6" gate="A" x="434.34" y="25.4" smashed="yes" grouprefs="1SET2">
 <attribute name="NAME" x="432.1556" y="27.4828" size="3.4798" layer="95" ratio="10" rot="SR0"/>
-</instance>
-<instance part="J6" gate="A" x="154.94" y="73.66" smashed="yes">
-<attribute name="NAME" x="159.1056" y="78.9686" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 </instance>
 </instances>
 <busses>
