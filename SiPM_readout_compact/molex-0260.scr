@@ -1,0 +1,111 @@
+# Created by Ultra Librarian Gold 8.3.299 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'CONN_35312-0260_MOL.pac';
+Grid Mil;
+Change Drill 49;
+Pad '1' Round 0 69 R0 (0 0);
+Change Drill 49;
+Pad '2' Round 0 69 R0 (98 0);
+Layer 21;
+Wire 6 (-108 -109) (206 -109);
+Wire 6 (206 -109) (206 157);
+Wire 6 (206 157) (-108 157);
+Wire 6 (-108 157) (-108 -109);
+Wire 20 (-163 0) -180 (-193 0);
+Wire 20 (-193 0) -180 (-163 0);
+Layer 51;
+Wire 6 (-103 -104) (201 -104);
+Wire 6 (201 -104) (201 152);
+Wire 6 (201 152) (-103 152);
+Wire 6 (-103 152) (-103 -104);
+Wire 20 (15 75) -180 (-15 75);
+Wire 20 (-15 75) -180 (15 75);
+Layer 22;
+Wire 20 (-163 0) -180 (-193 0);
+Wire 20 (-193 0) -180 (-163 0);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-80 -25);
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-19 -25);
+
+Edit 'CONN_002P_000C_1.sym';
+Grid Mil;
+Layer 94;
+Pin '1' Pas None Middle R0 Pad 0 (0 0)
+Pin '2' Pas None Middle R0 Pad 0 (0 -100)
+Wire 6 (400 0) (200 0);
+Wire 6 (400 -100) (200 -100);
+Wire 6 (400 0) (350 33);
+Wire 6 (400 -100) (350 -67);
+Wire 6 (400 0) (350 -33);
+Wire 6 (400 -100) (350 -133);
+Wire 6 (200 100) (200 -200);
+Wire 6 (200 -200) (500 -200);
+Wire 6 (500 -200) (500 100);
+Wire 6 (500 100) (200 100);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (164 209);
+
+Edit 'CONN_002P_000C_2.sym';
+Grid Mil;
+Layer 94;
+Pin '1' Pas None Middle R0 Pad 0 (0 0)
+Pin '2' Pas None Middle R0 Pad 0 (0 -100)
+Wire 6 (300 0) (200 0);
+Wire 6 (300 -100) (200 -100);
+Wire 6 (300 0) (350 33);
+Wire 6 (300 -100) (350 -67);
+Wire 6 (300 0) (350 -33);
+Wire 6 (300 -100) (350 -133);
+Wire 6 (200 100) (200 -200);
+Wire 6 (200 -200) (500 -200);
+Wire 6 (500 -200) (500 100);
+Wire 6 (500 100) (200 100);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (164 209);
+
+Edit 'CONN_002P_000C_3.sym';
+Grid Mil;
+Layer 94;
+Pin '1' Pas None Middle R0 Pad 0 (0 0)
+Pin '2' Pas None Middle R0 Pad 0 (0 -100)
+Wire 6 (200 100) (200 -200);
+Wire 6 (200 -200) (500 -200);
+Wire 6 (500 -200) (500 100);
+Wire 6 (500 100) (200 100);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (164 209);
+
+Edit '35312-0260.dev';
+Prefix 'J';
+Description '';
+Value Off;
+Add CONN_002P_000C_1 'A' Next  0 (0 0);
+Package 'CONN_35312-0260_MOL';
+Technology '';
+Attribute Datasheet 'https://www.molex.com/pdm_docs/sd/353120260_sd.pdf';
+Attribute Vendor 'Molex Connector Corporation';
+Attribute Manufacturer_Part_Number '35312-0260';
+Attribute Built_By 'EMA_Cory';
+Attribute Copyright 'Copyright (C) 2018 Accelerated Designs. All rights reserved';
+Attribute SourceLibrary 'Molex_2020-08-04';
+Connect 'A.1' '1';
+Connect 'A.2' '2';

@@ -184,7 +184,7 @@
 <layer number="255" name="PART" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOWYzNGEwMQ" projecturn="a.cGVyc29uYWw6dWUyOWYzNGEwMSMyMDIxMDQwMTM5ODc3OTY4MQ" f3durn="urn:adsk.wipprod:dm.lineage:9nN-MDLURHy07XTgHTA8Mg" pcbguid="" lastpulledtime="2021-04-05T08:38:54Z" lastsyncedchangeguid="" latestrevisionid="b4c76c4a-d663-4d42-8f81-cf91534da823" lastsyncedrevisionid="b4c76c4a-d663-4d42-8f81-cf91534da823" lastboardhashguid="e59dab08-84b3-36df-3ff7-7b47e6b86439" lastpushedtime="2021-04-05T08:52:17Z" linktopcb3d="false"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOWYzNGEwMQ" projecturn="a.cGVyc29uYWw6dWUyOWYzNGEwMSMyMDIxMDQwMTM5ODc3OTY4MQ" f3durn="urn:adsk.wipprod:dm.lineage:9nN-MDLURHy07XTgHTA8Mg" pcbguid="" lastpulledtime="2021-04-05T08:38:54Z" lastsyncedchangeguid="" latestrevisionid="b4c76c4a-d663-4d42-8f81-cf91534da823" lastsyncedrevisionid="b4c76c4a-d663-4d42-8f81-cf91534da823" lastboardhashguid="e59dab08-84b3-36df-3ff7-7b47e6b86439" lastpushedtime="2021-04-05T08:52:17Z" linktopcb3d="true"/>
 <plain>
 <rectangle x1="0" y1="0" x2="180" y2="150" layer="108"/>
 <wire x1="60.64625" y1="14.3845" x2="60.87625" y2="14.3605" width="0.1" layer="25"/>
@@ -1435,13 +1435,13 @@ design rules under a new name.</description>
 <board_group name="Q"/>
 </groups>
 <elements>
-<element name="C5" library="PI3523_1_3_ul_C1608C0G2A472J080AC" package="CAP_C1608_TDK" value="C1608C0G2A472J080AC" x="33.2" y="46.6" smashed="yes" rot="R270">
-<attribute name="BUILT_BY" value="EMA_Matt" x="-25.22" y="13.58" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="-25.22" y="13.58" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="C1608C0G2A472J080AC" x="-25.22" y="13.58" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="37.7" y="46.1" size="1" layer="25" ratio="6" rot="SR90"/>
-<attribute name="SOURCELIBRARY" value="TDK_2019-10-09" x="-25.22" y="13.58" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VENDOR" value="TDK" x="-25.22" y="13.58" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C5" library="PI3523_1_3_ul_C1608C0G2A472J080AC" package="CAP_C1608_TDK" value="C1608C0G2A472J080AC" x="33.1" y="48.2" smashed="yes" rot="R90">
+<attribute name="BUILT_BY" value="EMA_Matt" x="91.52" y="81.22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="91.52" y="81.22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C1608C0G2A472J080AC" x="91.52" y="81.22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="28.6" y="48.7" size="1" layer="25" ratio="6" rot="SR270"/>
+<attribute name="SOURCELIBRARY" value="TDK_2019-10-09" x="91.52" y="81.22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="TDK" x="91.52" y="81.22" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C1" library="PI3523_1_1_ul_GRM32ER72A225KA35L" package="G-32_MUR" value="GRM32ER72A225KA35L" x="25.5" y="73.88" smashed="yes">
 <attribute name="COPYRIGHT" value="Copyright (C) 2015 Accelerated Designs. All rights reserved" x="58.52" y="30.7" size="1.778" layer="27" display="off"/>
@@ -1506,13 +1506,13 @@ design rules under a new name.</description>
 <attribute name="SOURCELIBRARY" value="Murata_2014-12-31" x="45.63" y="53.66" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Murata" x="45.63" y="53.66" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C6" library="PI3523_1_3_ul_C1608C0G2A472J080AC" package="CAP_C1608_TDK" value="C1608C0G2A472J080AC" x="33" y="16.1" smashed="yes" rot="R90">
-<attribute name="BUILT_BY" value="EMA_Matt" x="29.19" y="16.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="29.19" y="16.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="C1608C0G2A472J080AC" x="29.19" y="16.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="37.8" y="15.3" size="1" layer="25" ratio="6" rot="SR90"/>
-<attribute name="SOURCELIBRARY" value="TDK_2019-10-09" x="29.19" y="16.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VENDOR" value="TDK" x="29.19" y="16.1" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C6" library="PI3523_1_3_ul_C1608C0G2A472J080AC" package="CAP_C1608_TDK" value="C1608C0G2A472J080AC" x="33" y="16.3" smashed="yes" rot="R90">
+<attribute name="BUILT_BY" value="EMA_Matt" x="29.19" y="16.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="29.19" y="16.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C1608C0G2A472J080AC" x="29.19" y="16.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="37.8" y="15.5" size="1" layer="25" ratio="6" rot="SR90"/>
+<attribute name="SOURCELIBRARY" value="TDK_2019-10-09" x="29.19" y="16.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="TDK" x="29.19" y="16.3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R6" library="PI3523_R210" package="RC0603N_YAG" value="RT0603BRE072K4L" x="33.24" y="19.125" smashed="yes" rot="MR270">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="43.4" y="19.125" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1704,48 +1704,48 @@ design rules under a new name.</description>
 <attribute name="SOURCELIBRARY" value="Murata_2014-12-31" x="57.5" y="40" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VENDOR" value="Murata" x="57.5" y="40" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="R1" library="PI3523_R3.6_2" package="RESC1608X55" value="ERJ-3GEY0R00V" x="35" y="48.6" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="Good" x="35" y="48.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value=" 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film " x="35" y="48.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Panasonic Electronic" x="35" y="48.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="ERJ-3GEY0R00V" x="35" y="48.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="38.2354875" y="49.73608125" size="1" layer="25" rot="R270"/>
-<attribute name="PACKAGE" value="1608 Panasonic Electronic Components" x="35" y="48.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="None" x="35" y="48.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ERJ-3GEY0R00V/?ref=eda" x="35" y="48.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="33.74413125" y="50.23613125" size="0.500346875" layer="27" rot="R270"/>
+<element name="R1" library="PI3523_R3.6_2" package="RESC1608X55" value="ERJ-3GEY0R00V" x="34" y="45.8" smashed="yes">
+<attribute name="AVAILABILITY" value="Good" x="34" y="45.8" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film " x="34" y="45.8" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Panasonic Electronic" x="34" y="45.8" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="ERJ-3GEY0R00V" x="34" y="45.8" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="32.86391875" y="49.0354875" size="1" layer="25"/>
+<attribute name="PACKAGE" value="1608 Panasonic Electronic Components" x="34" y="45.8" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="34" y="45.8" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ERJ-3GEY0R00V/?ref=eda" x="34" y="45.8" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="32.36386875" y="44.54413125" size="0.500346875" layer="27"/>
 </element>
-<element name="R2" library="PI3523_R3.6_1" package="RESC1608X55N" value="ERA-3APB911V" x="35" y="44.6" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="Warning" x="35" y="44.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" 910 Ohms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film " x="35" y="44.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Panasonic" x="35" y="44.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="ERA-3APB911V" x="35" y="44.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="39.25" y="43.19" size="1" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="1608 Panasonic Electronic Components" x="35" y="44.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="35" y="44.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ERA-3APB911V/?ref=eda" x="35" y="44.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="35.85" y="43.09" size="0.5" layer="27" rot="R90" align="top-left"/>
+<element name="R2" library="PI3523_R3.6_1" package="RESC1608X55N" value="ERA-3APB911V" x="34.9" y="48.1" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="Warning" x="34.9" y="48.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 910 Ohms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film " x="34.9" y="48.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Panasonic" x="34.9" y="48.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="ERA-3APB911V" x="34.9" y="48.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="39.15" y="46.69" size="1" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1608 Panasonic Electronic Components" x="34.9" y="48.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="34.9" y="48.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ERA-3APB911V/?ref=eda" x="34.9" y="48.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="35.75" y="46.59" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
-<element name="R4" library="PI3523_R2.2_1" package="RESC1608X55N" value="ERA-3AEB1961V" x="34.8" y="17.5" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="Good" x="34.8" y="17.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" 1.96 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film " x="34.8" y="17.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Panasonic" x="34.8" y="17.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="ERA-3AEB1961V" x="34.8" y="17.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="39.65" y="16.99" size="1" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="1608 Panasonic Electronic Components" x="34.8" y="17.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="34.8" y="17.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ERA-3AEB1961V/?ref=eda" x="34.8" y="17.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="35.65" y="15.99" size="0.5" layer="27" rot="R90" align="top-left"/>
+<element name="R4" library="PI3523_R2.2_1" package="RESC1608X55N" value="ERA-3AEB1961V" x="34.6" y="16.1" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="Good" x="34.6" y="16.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 1.96 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film " x="34.6" y="16.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Panasonic" x="34.6" y="16.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="ERA-3AEB1961V" x="34.6" y="16.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="39.45" y="15.59" size="1" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1608 Panasonic Electronic Components" x="34.6" y="16.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="34.6" y="16.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ERA-3AEB1961V/?ref=eda" x="34.6" y="16.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="35.45" y="14.59" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
-<element name="R3" library="PI3523_R2.2_2" package="RESC1608X55N" value="ERJ-3BQJ3R6V" x="34.8" y="12.9" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="Unavailable" x="34.8" y="12.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value=" Res Thick Film 0603 3.6 Ohm 5% 0.25W(1/4W) ±200ppm/°C Pad SMD Automotive T/R " x="34.8" y="12.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Panasonic" x="34.8" y="12.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="ERJ-3BQJ3R6V" x="34.8" y="12.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="38.92" y="14.29" size="1" layer="25" rot="R270"/>
-<attribute name="PACKAGE" value="1608 Panasonic Electronic Components" x="34.8" y="12.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="None" x="34.8" y="12.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="33.98" y="14.39" size="0.5" layer="27" rot="R270" align="top-left"/>
+<element name="R3" library="PI3523_R2.2_2" package="RESC1608X55N" value="ERJ-3BQJ3R6V" x="33.8" y="13.7" smashed="yes">
+<attribute name="AVAILABILITY" value="Unavailable" x="33.8" y="13.7" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Res Thick Film 0603 3.6 Ohm 5% 0.25W(1/4W) ±200ppm/°C Pad SMD Automotive T/R " x="33.8" y="13.7" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Panasonic" x="33.8" y="13.7" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="ERJ-3BQJ3R6V" x="33.8" y="13.7" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="32.41" y="17.82" size="1" layer="25"/>
+<attribute name="PACKAGE" value="1608 Panasonic Electronic Components" x="33.8" y="13.7" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="33.8" y="13.7" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="32.31" y="12.88" size="0.5" layer="27" align="top-left"/>
 </element>
 <element name="U$1" library="PI3523-00-LGIZ_TGLee" package="PI3523-00-LGIZ" value="PI3523-00-LGIZ" x="31.5" y="18.3" smashed="yes" rot="R270"/>
 <element name="U$2" library="PI3523-00-LGIZ_TGLee" package="PI3523-00-LGIZ" value="PI3523-00-LGIZ" x="31.5" y="50.2" smashed="yes" rot="R270"/>
@@ -1916,7 +1916,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="SGND">
 <contactref element="C5" pad="1"/>
-<wire x1="33.0988" y1="47.4739" x2="33.2" y2="47.5751" width="0.3" layer="1"/>
 <contactref element="R1" pad="1"/>
 <contactref element="U$2" pad="SGND1"/>
 <contactref element="U$2" pad="SGND10"/>
@@ -1948,13 +1947,24 @@ design rules under a new name.</description>
 <wire x1="30.5" y1="47.2" x2="29.5" y2="47.2" width="0.55" layer="1"/>
 <wire x1="29.5" y1="48.2" x2="30.5" y2="48.2" width="0.55" layer="1"/>
 <wire x1="27.5" y1="50.2" x2="28.5" y2="49.2" width="0.2" layer="1"/>
-<wire x1="33.2" y1="47.5751" x2="35" y2="49.45" width="0" layer="19" extent="1-1"/>
-<wire x1="31.5" y1="47.2" x2="33.0988" y2="47.4739" width="0" layer="19" extent="1-1"/>
-<wire x1="31.5" y1="43.2" x2="31.5" y2="46.2" width="0" layer="19" extent="1-1"/>
+<wire x1="33.0012" y1="47.1261" x2="33.1" y2="47.2249" width="0.3" layer="1"/>
+<wire x1="29.09974375" y1="40.6226" x2="29.90025625" y2="40.6226" width="0.3" layer="1"/>
+<wire x1="28.5" y1="41.2" x2="28.52234375" y2="41.2" width="0.3" layer="1"/>
+<wire x1="30.47765625" y1="41.2" x2="30.5" y2="41.2" width="0.3" layer="1"/>
+<wire x1="28.52234375" y1="41.2" x2="29.09974375" y2="40.6226" width="0.3" layer="1"/>
+<wire x1="29.90025625" y1="40.6226" x2="30.47765625" y2="41.2" width="0.3" layer="1"/>
+<wire x1="30.5" y1="41.2" x2="31.5" y2="41.2" width="0.3" layer="1"/>
+<wire x1="31.5" y1="41.2" x2="31.5" y2="43.2" width="0.3" layer="1"/>
+<wire x1="33.15" y1="44.25" x2="33.15" y2="45.8" width="0.3" layer="1"/>
+<wire x1="33.15" y1="44.25" x2="32.1" y2="43.2" width="0.3" layer="1"/>
+<wire x1="31.5" y1="43.2" x2="32.1" y2="43.2" width="0.3" layer="1"/>
+<wire x1="33.1" y1="47.2249" x2="33.1" y2="45.85" width="0.3" layer="1"/>
+<wire x1="33.15" y1="45.8" x2="33.1" y2="45.85" width="0.3" layer="1"/>
+<wire x1="31.5" y1="47.2249" x2="31.4012" y2="47.1261" width="0.3" layer="1"/>
+<wire x1="31.5" y1="47.2249" x2="33.1" y2="47.2249" width="0.3" layer="1"/>
+<wire x1="31.5" y1="47.2" x2="32.3133" y2="47.2" width="0.3" layer="1"/>
+<wire x1="31.4012" y1="47.1261" x2="31.5" y2="47.2" width="0" layer="19" extent="1-1"/>
 <wire x1="31.5" y1="42.2" x2="31.5" y2="43.2" width="0" layer="19" extent="1-1"/>
-<wire x1="31.5" y1="41.2" x2="31.5" y2="42.2" width="0" layer="19" extent="1-1"/>
-<wire x1="30.5" y1="41.2" x2="31.5" y2="41.2" width="0" layer="19" extent="1-1"/>
-<wire x1="28.5" y1="41.2" x2="30.5" y2="41.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PGND" class="1">
 <contactref element="GND_IN" pad="1"/>
@@ -2304,14 +2314,22 @@ design rules under a new name.</description>
 <signal name="COMP">
 <contactref element="C5" pad="2"/>
 <contactref element="U$2" pad="COMP"/>
-<wire x1="33.2" y1="45.6249" x2="31.5" y2="49.2" width="0" layer="19" extent="1-1"/>
+<wire x1="31.5" y1="49.2" x2="32.9" y2="49.2" width="0.3" layer="1"/>
+<wire x1="32.9" y1="49.2" x2="32.9249" y2="49.1751" width="0.3" layer="1"/>
+<wire x1="32.9249" y1="49.1751" x2="33.1" y2="49.1751" width="0.3" layer="1"/>
 </signal>
 <signal name="EAIN">
 <contactref element="R5" pad="2"/>
 <contactref element="R2" pad="2"/>
 <contactref element="U$2" pad="EAIN"/>
-<wire x1="30.5" y1="50.2" x2="33.34" y2="50.0381" width="0" layer="19" extent="1-16"/>
-<wire x1="35" y1="45.39" x2="33.34" y2="50.0381" width="0" layer="19" extent="1-16"/>
+<wire x1="34.9" y1="48.89" x2="34.9" y2="50.1" width="0.3" layer="1"/>
+<via x="34.9" y="50.1" extent="1-16" drill="0.35"/>
+<wire x1="33.34" y1="50.0381" x2="33.4019" y2="50.1" width="0.3" layer="16"/>
+<wire x1="33.4019" y1="50.1" x2="34.9" y2="50.1" width="0.3" layer="16"/>
+<wire x1="30.5" y1="50.2" x2="30.52234375" y2="50.2" width="0.3" layer="1"/>
+<wire x1="30.52234375" y1="50.2" x2="31.09974375" y2="50.7774" width="0.3" layer="1"/>
+<wire x1="31.09974375" y1="50.7774" x2="34.2226" y2="50.7774" width="0.3" layer="1"/>
+<wire x1="34.2226" y1="50.7774" x2="34.9" y2="50.1" width="0.3" layer="1"/>
 </signal>
 <signal name="VOUT">
 <contactref element="R5" pad="1"/>
@@ -2319,8 +2337,8 @@ design rules under a new name.</description>
 <polygon width="0.1" layer="1">
 <vertex x="26" y="61"/>
 <vertex x="36" y="61"/>
-<vertex x="36" y="51"/>
-<vertex x="26" y="51"/>
+<vertex x="36" y="51.4"/>
+<vertex x="26" y="51.4"/>
 </polygon>
 <polygon width="0.1" layer="1">
 <vertex x="43.975" y="61"/>
@@ -2388,7 +2406,6 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="VOUT1"/>
 <via x="33" y="58.5" extent="1-16" drill="0.35"/>
 <via x="33" y="55.5" extent="1-16" drill="0.35"/>
-<wire x1="26.5" y1="50.2" x2="26.5" y2="51.3" width="0.3" layer="1"/>
 <polygon width="0.1" layer="16">
 <vertex x="26" y="61"/>
 <vertex x="26" y="51"/>
@@ -2397,7 +2414,10 @@ design rules under a new name.</description>
 <vertex x="69" y="40.5"/>
 <vertex x="69" y="61"/>
 </polygon>
-<wire x1="26.5" y1="50.2" x2="26.5" y2="49.2" width="0" layer="19" extent="1-1"/>
+<wire x1="26.5" y1="50.2" x2="26.5" y2="49.2" width="0.3" layer="1"/>
+<wire x1="26.5" y1="50.2" x2="26.4" y2="50.3" width="0.3" layer="1"/>
+<wire x1="26.5" y1="50.2" x2="26.5" y2="51.8" width="0.3" layer="1"/>
+<wire x1="26.5" y1="51.8" x2="26.8" y2="52.1" width="0.3" layer="1"/>
 </signal>
 <signal name="VS1">
 <polygon width="0.1" layer="1">
@@ -2454,29 +2474,43 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="VSP"/>
 <wire x1="27.5" y1="18.3" x2="28.5" y2="17.3" width="0.2" layer="1"/>
 <wire x1="28.5" y1="17.3" x2="30.5" y2="17.3" width="0.55" layer="1"/>
-<wire x1="30.5" y1="17.3" x2="30.5" y2="14.3" width="0.55" layer="1"/>
+<wire x1="30.5" y1="17.3" x2="30.5" y2="16.3" width="0.55" layer="1"/>
+<wire x1="30.5" y1="16.3" x2="30.5" y2="14.3" width="0.55" layer="1"/>
 <wire x1="29.5" y1="14.3" x2="31.5" y2="14.3" width="0.55" layer="1"/>
 <wire x1="31.5" y1="14.3" x2="31.5" y2="15.3" width="0.55" layer="1"/>
 <wire x1="31.5" y1="15.3" x2="29.5" y2="15.3" width="0.55" layer="1"/>
 <wire x1="29.5" y1="17.3" x2="29.5" y2="14.3" width="0.55" layer="1"/>
-<wire x1="33" y1="15.1249" x2="34.8" y2="13.7" width="0" layer="19" extent="1-1"/>
-<wire x1="31.5" y1="15.3" x2="33" y2="15.1249" width="0" layer="19" extent="1-1"/>
-<wire x1="30.5" y1="15.3" x2="29.5" y2="15.3" width="0" layer="19" extent="1-1"/>
-<wire x1="30.5" y1="16.3" x2="30.5" y2="15.3" width="0" layer="19" extent="1-1"/>
-<wire x1="29.5" y1="16.3" x2="29.5" y2="15.3" width="0" layer="19" extent="1-1"/>
-<wire x1="28.5" y1="17.3" x2="29.5" y2="17.3" width="0" layer="19" extent="1-1"/>
-<wire x1="31.5" y1="11.3" x2="31.5" y2="14.3" width="0" layer="19" extent="1-1"/>
+<wire x1="29.09974375" y1="8.7226" x2="29.90025625" y2="8.7226" width="0.3" layer="1"/>
+<wire x1="28.5" y1="9.3" x2="28.52234375" y2="9.3" width="0.3" layer="1"/>
+<wire x1="30.47765625" y1="9.3" x2="31.5" y2="9.3" width="0.3" layer="1"/>
+<wire x1="28.52234375" y1="9.3" x2="29.09974375" y2="8.7226" width="0.3" layer="1"/>
+<wire x1="29.90025625" y1="8.7226" x2="30.47765625" y2="9.3" width="0.3" layer="1"/>
+<wire x1="31.5" y1="9.3" x2="31.5" y2="11.3" width="0.3" layer="1"/>
+<wire x1="31.5" y1="15.3" x2="32.9751" y2="15.3" width="0.3" layer="1"/>
+<wire x1="32.9751" y1="15.3" x2="33" y2="15.3249" width="0.3" layer="1"/>
+<wire x1="31.5" y1="11.3" x2="32.2" y2="11.3" width="0.3" layer="1"/>
+<wire x1="32.2" y1="11.3" x2="33" y2="12.1" width="0.3" layer="1"/>
+<wire x1="33" y1="12.1" x2="33" y2="13.7" width="0.3" layer="1"/>
+<wire x1="33" y1="13.7" x2="33" y2="15.3249" width="0.3" layer="1"/>
+<wire x1="29.5" y1="16.3" x2="30.5" y2="16.3" width="0.3" layer="1"/>
+<wire x1="30.5" y1="14.3" x2="30.5" y2="15.3" width="0" layer="19" extent="1-1"/>
+<wire x1="29.5" y1="15.3" x2="30.5" y2="15.3" width="0" layer="19" extent="1-1"/>
 <wire x1="31.5" y1="10.3" x2="31.5" y2="11.3" width="0" layer="19" extent="1-1"/>
-<wire x1="31.5" y1="9.3" x2="31.5" y2="10.3" width="0" layer="19" extent="1-1"/>
 <wire x1="30.5" y1="9.3" x2="31.5" y2="9.3" width="0" layer="19" extent="1-1"/>
-<wire x1="28.5" y1="9.3" x2="30.5" y2="9.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="EAIN2">
 <contactref element="R6" pad="2"/>
 <contactref element="R4" pad="2"/>
 <contactref element="U$1" pad="EAIN"/>
-<wire x1="34.8" y1="18.29" x2="33.24" y2="18.3531" width="0" layer="19" extent="1-16"/>
-<wire x1="30.5" y1="18.3" x2="33.24" y2="18.3531" width="0" layer="19" extent="1-16"/>
+<wire x1="34.5" y1="18.1" x2="34.6" y2="18" width="0.3" layer="1"/>
+<wire x1="34.6" y1="18" x2="34.6" y2="16.89" width="0.3" layer="1"/>
+<via x="34.5" y="18.1" extent="1-16" drill="0.35"/>
+<wire x1="33.24" y1="18.3531" x2="34.2469" y2="18.3531" width="0.3" layer="16"/>
+<wire x1="34.2469" y1="18.3531" x2="34.5" y2="18.1" width="0.3" layer="16"/>
+<wire x1="30.5" y1="18.3" x2="30.52234375" y2="18.3" width="0.3" layer="1"/>
+<wire x1="30.52234375" y1="18.3" x2="31.09974375" y2="18.8774" width="0.3" layer="1"/>
+<wire x1="31.09974375" y1="18.8774" x2="33.7226" y2="18.8774" width="0.3" layer="1"/>
+<wire x1="33.7226" y1="18.8774" x2="34.5" y2="18.1" width="0.3" layer="1"/>
 </signal>
 <signal name="VOUT2">
 <contactref element="R6" pad="1"/>
@@ -2599,17 +2633,19 @@ design rules under a new name.</description>
 <signal name="COMP2">
 <contactref element="C6" pad="2"/>
 <contactref element="U$1" pad="COMP"/>
-<wire x1="31.5" y1="17.3" x2="33" y2="17.0751" width="0" layer="19" extent="1-1"/>
+<wire x1="31.5" y1="17.3" x2="32.9751" y2="17.3" width="0.3" layer="1"/>
+<wire x1="32.9751" y1="17.3" x2="33" y2="17.2751" width="0.3" layer="1"/>
 </signal>
 <signal name="R21_1">
 <contactref element="R1" pad="2"/>
 <contactref element="R2" pad="1"/>
-<wire x1="35" y1="43.81" x2="35" y2="47.75" width="0" layer="19" extent="1-1"/>
+<wire x1="34.9" y1="47.31" x2="34.9" y2="45.85" width="0.3" layer="1"/>
+<wire x1="34.9" y1="45.85" x2="34.85" y2="45.8" width="0.3" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="R4" pad="1"/>
 <contactref element="R3" pad="2"/>
-<wire x1="34.8" y1="12.1" x2="34.8" y2="16.71" width="0" layer="19" extent="1-1"/>
+<wire x1="34.6" y1="15.31" x2="34.6" y2="13.7" width="0.3" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="U$1" pad="VDIFF"/>
