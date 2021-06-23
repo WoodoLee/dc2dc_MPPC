@@ -1724,6 +1724,7 @@ Source: Samtec SSW.pdf</description>
 <part name="R8" library="SiPM_Trim_resistor" deviceset="3266W-1-102LF" device=""/>
 <part name="R9" library="SiPM_R11" deviceset="ESR03EZPF1001" device=""/>
 <part name="MPPC" library="con-samtec" library_urn="urn:adsk.eagle:library:184" deviceset="SSW-101-02-G" device="-D"/>
+<part name="GND1" library="SiPM_banana" deviceset="350180" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1825,6 +1826,10 @@ Source: Samtec SSW.pdf</description>
 </instance>
 <instance part="MPPC" gate="-2" x="91.44" y="40.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="92.202" y="43.688" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="GND1" gate="G$1" x="45.72" y="58.42" smashed="yes">
+<attribute name="NAME" x="40.64" y="62.23" size="1.778" layer="95"/>
+<attribute name="VALUE" x="40.64" y="54.61" size="1.778" layer="96" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -1955,6 +1960,11 @@ Source: Samtec SSW.pdf</description>
 <wire x1="447.04" y1="20.32" x2="447.04" y2="12.7" width="0.1524" layer="91" grouprefs="1SET2"/>
 <label x="447.04" y="12.7" size="1.778" layer="95" xref="yes" grouprefs="1SET2"/>
 <pinref part="AMP3" gate="A" pin="+IN"/>
+</segment>
+<segment>
+<pinref part="GND1" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="58.42" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
+<label x="33.02" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="+FB" class="0">
@@ -2136,6 +2146,8 @@ Source: Samtec SSW.pdf</description>
 <junction x="309.88" y="22.86" grouprefs="1SET1"/>
 <pinref part="AMP2" gate="A" pin="-IN"/>
 <pinref part="R5" gate="A" pin="1"/>
+<pinref part="R8" gate="A" pin="2"/>
+<wire x1="309.88" y1="22.86" x2="302.26" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -2167,12 +2179,6 @@ Source: Samtec SSW.pdf</description>
 <pinref part="AMP3" gate="A" pin="-IN"/>
 <pinref part="R6" gate="A" pin="1"/>
 <pinref part="R9" gate="A" pin="2"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="R8" gate="A" pin="2"/>
-<wire x1="302.26" y1="22.86" x2="307.34" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
