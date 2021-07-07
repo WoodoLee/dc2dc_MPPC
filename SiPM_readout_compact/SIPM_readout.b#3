@@ -797,70 +797,6 @@ Elementary Particle Physics Lab.
 <dimension x1="10.3" y1="89.7" x2="60.3" y2="89.7" x3="35.3" y3="94.3" textsize="1.778" layer="20"/>
 </plain>
 <libraries>
-<library name="SiPM_C3">
-<packages>
-<package name="CAP_3225_TDK">
-<smd name="1" x="-1.8796" y="0" dx="0.5588" dy="2.794" layer="1"/>
-<smd name="2" x="1.8796" y="0" dx="0.5588" dy="2.794" layer="1"/>
-<wire x1="-1.2954" y1="-1.524" x2="1.2954" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="1.2954" y1="1.524" x2="-1.2954" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-2.921" y1="0" x2="-3.0734" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-3.0734" y1="0" x2="-2.921" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-1.6002" y1="-1.397" x2="-1.6002" y2="1.397" width="0.1524" layer="51"/>
-<wire x1="-1.6002" y1="1.397" x2="-1.8034" y2="1.397" width="0.1524" layer="51"/>
-<wire x1="-1.8034" y1="-1.397" x2="-1.6002" y2="-1.397" width="0.1524" layer="51"/>
-<wire x1="1.6002" y1="1.397" x2="1.6002" y2="-1.397" width="0.1524" layer="51"/>
-<wire x1="1.6002" y1="-1.397" x2="1.8034" y2="-1.397" width="0.1524" layer="51"/>
-<wire x1="1.8034" y1="1.397" x2="1.6002" y2="1.397" width="0.1524" layer="51"/>
-<wire x1="-1.6002" y1="-1.397" x2="1.6002" y2="-1.397" width="0.1524" layer="51"/>
-<wire x1="1.8034" y1="-1.397" x2="1.8034" y2="1.397" width="0.1524" layer="51"/>
-<wire x1="1.6002" y1="1.397" x2="-1.6002" y2="1.397" width="0.1524" layer="51"/>
-<wire x1="-1.8034" y1="1.397" x2="-1.8034" y2="-1.397" width="0.1524" layer="51"/>
-<wire x1="-1.6764" y1="0" x2="-1.8288" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-1.8288" y1="0" x2="-1.6764" y2="0" width="0" layer="51" curve="-180"/>
-<polygon width="0.1524" layer="41">
-<vertex x="-1.5494" y="1.3462"/>
-<vertex x="1.5494" y="1.3462"/>
-<vertex x="1.5494" y="-1.3462"/>
-<vertex x="-1.5494" y="-1.3462"/>
-</polygon>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-</package>
-</packages>
-</library>
-<library name="SiPM_C4">
-<packages>
-<package name="CAP_3225_TDK">
-<smd name="1" x="-1.8796" y="0" dx="0.5588" dy="2.794" layer="1"/>
-<smd name="2" x="1.8796" y="0" dx="0.5588" dy="2.794" layer="1"/>
-<wire x1="-1.2954" y1="-1.524" x2="1.2954" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="1.2954" y1="1.524" x2="-1.2954" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-2.921" y1="0" x2="-3.0734" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-3.0734" y1="0" x2="-2.921" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-1.6002" y1="-1.397" x2="-1.6002" y2="1.397" width="0.1524" layer="51"/>
-<wire x1="-1.6002" y1="1.397" x2="-1.8034" y2="1.397" width="0.1524" layer="51"/>
-<wire x1="-1.8034" y1="-1.397" x2="-1.6002" y2="-1.397" width="0.1524" layer="51"/>
-<wire x1="1.6002" y1="1.397" x2="1.6002" y2="-1.397" width="0.1524" layer="51"/>
-<wire x1="1.6002" y1="-1.397" x2="1.8034" y2="-1.397" width="0.1524" layer="51"/>
-<wire x1="1.8034" y1="1.397" x2="1.6002" y2="1.397" width="0.1524" layer="51"/>
-<wire x1="-1.6002" y1="-1.397" x2="1.6002" y2="-1.397" width="0.1524" layer="51"/>
-<wire x1="1.8034" y1="-1.397" x2="1.8034" y2="1.397" width="0.1524" layer="51"/>
-<wire x1="1.6002" y1="1.397" x2="-1.6002" y2="1.397" width="0.1524" layer="51"/>
-<wire x1="-1.8034" y1="1.397" x2="-1.8034" y2="-1.397" width="0.1524" layer="51"/>
-<wire x1="-1.6764" y1="0" x2="-1.8288" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-1.8288" y1="0" x2="-1.6764" y2="0" width="0" layer="51" curve="-180"/>
-<polygon width="0.1524" layer="41">
-<vertex x="-1.5494" y="1.3462"/>
-<vertex x="1.5494" y="1.3462"/>
-<vertex x="1.5494" y="-1.3462"/>
-<vertex x="-1.5494" y="-1.3462"/>
-</polygon>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-</package>
-</packages>
-</library>
 <library name="SiPM_R6">
 <packages>
 <package name="RC0603N_YAG">
@@ -1156,6 +1092,70 @@ Source: Samtec SSW.pdf</description>
 </package3d>
 </packages3d>
 </library>
+<library name="SiPM_3.3uF">
+<packages>
+<package name="CAP_3225_TDK-M">
+<smd name="1" x="-1.9812" y="0" dx="0.762" dy="2.8448" layer="1"/>
+<smd name="2" x="1.9812" y="0" dx="0.762" dy="2.8448" layer="1"/>
+<wire x1="-1.2954" y1="-1.524" x2="1.2954" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="1.2954" y1="1.524" x2="-1.2954" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-3.1242" y1="0" x2="-3.2766" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-3.2766" y1="0" x2="-3.1242" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-1.6002" y1="-1.397" x2="-1.6002" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="-1.6002" y1="1.397" x2="-1.8034" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="-1.8034" y1="-1.397" x2="-1.6002" y2="-1.397" width="0.1524" layer="51"/>
+<wire x1="1.6002" y1="1.397" x2="1.6002" y2="-1.397" width="0.1524" layer="51"/>
+<wire x1="1.6002" y1="-1.397" x2="1.8034" y2="-1.397" width="0.1524" layer="51"/>
+<wire x1="1.8034" y1="1.397" x2="1.6002" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="-1.6002" y1="-1.397" x2="1.6002" y2="-1.397" width="0.1524" layer="51"/>
+<wire x1="1.8034" y1="-1.397" x2="1.8034" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="1.6002" y1="1.397" x2="-1.6002" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="-1.8034" y1="1.397" x2="-1.8034" y2="-1.397" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="0" x2="-1.9304" y2="0" width="0" layer="51" curve="-180"/>
+<wire x1="-1.9304" y1="0" x2="-1.778" y2="0" width="0" layer="51" curve="-180"/>
+<polygon width="0.1524" layer="41">
+<vertex x="-1.5494" y="1.3462"/>
+<vertex x="1.5494" y="1.3462"/>
+<vertex x="1.5494" y="-1.3462"/>
+<vertex x="-1.5494" y="-1.3462"/>
+</polygon>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+</package>
+</packages>
+</library>
+<library name="SiPM_1uF">
+<packages>
+<package name="CAP_3225_TDK-M">
+<smd name="1" x="-1.9812" y="0" dx="0.762" dy="2.8448" layer="1"/>
+<smd name="2" x="1.9812" y="0" dx="0.762" dy="2.8448" layer="1"/>
+<wire x1="-1.2954" y1="-1.524" x2="1.2954" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="1.2954" y1="1.524" x2="-1.2954" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-3.1242" y1="0" x2="-3.2766" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-3.2766" y1="0" x2="-3.1242" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-1.6002" y1="-1.397" x2="-1.6002" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="-1.6002" y1="1.397" x2="-1.8034" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="-1.8034" y1="-1.397" x2="-1.6002" y2="-1.397" width="0.1524" layer="51"/>
+<wire x1="1.6002" y1="1.397" x2="1.6002" y2="-1.397" width="0.1524" layer="51"/>
+<wire x1="1.6002" y1="-1.397" x2="1.8034" y2="-1.397" width="0.1524" layer="51"/>
+<wire x1="1.8034" y1="1.397" x2="1.6002" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="-1.6002" y1="-1.397" x2="1.6002" y2="-1.397" width="0.1524" layer="51"/>
+<wire x1="1.8034" y1="-1.397" x2="1.8034" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="1.6002" y1="1.397" x2="-1.6002" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="-1.8034" y1="1.397" x2="-1.8034" y2="-1.397" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="0" x2="-1.9304" y2="0" width="0" layer="51" curve="-180"/>
+<wire x1="-1.9304" y1="0" x2="-1.778" y2="0" width="0" layer="51" curve="-180"/>
+<polygon width="0.1524" layer="41">
+<vertex x="-1.5494" y="1.3462"/>
+<vertex x="1.5494" y="1.3462"/>
+<vertex x="1.5494" y="-1.3462"/>
+<vertex x="-1.5494" y="-1.3462"/>
+</polygon>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1352,20 +1352,6 @@ design rules under a new name.</description>
 <board_group name="TIGER"/>
 </groups>
 <elements>
-<element name="C1" library="SiPM_C3" package="CAP_3225_TDK" value="CGA6P3X7R1H335K250AB" x="30.11" y="79.17" smashed="yes" rot="R270">
-<attribute name="BUILT_BY" value="EMA_UL_Team" x="-9.26" y="44.88" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA6P3X7R1H335K250AB" x="-9.26" y="44.88" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="29.475" y="81.4466" size="1.27" layer="25" ratio="6" rot="SR90"/>
-<attribute name="SOURCELIBRARY" value="TDK_2015_05_22" x="-9.26" y="44.88" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VENDOR" value="TDK" x="-9.26" y="44.88" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="C2" library="SiPM_C4" package="CAP_3225_TDK" value="C3225X7R1H105K160AA" x="33.38" y="79.17" smashed="yes" rot="R270">
-<attribute name="BUILT_BY" value="EMA_UL_Team" x="-5.99" y="20.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="C3225X7R1H105K160AA" x="-5.99" y="20.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="32.5534" y="81.445" size="1.27" layer="25" ratio="6" rot="SR90"/>
-<attribute name="SOURCELIBRARY" value="TDK_2015_05_22" x="-5.99" y="20.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VENDOR" value="TDK" x="-5.99" y="20.75" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
 <element name="R1" library="SiPM_R6" package="RC0603N_YAG" value="RC0603FR-072ML" x="27.8" y="79.2" smashed="yes" rot="R90">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="86.22" y="126.19" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR-072ML" x="86.22" y="126.19" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1560,11 +1546,25 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="40" x="56.52" y="77.52" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="51.44" y="80.06" size="1.016" layer="27" ratio="10" rot="R270"/>
 </element>
+<element name="C1" library="SiPM_3.3uF" package="CAP_3225_TDK-M" value="C3225X7S2A335M200ABCAP_3225_TDK-M" x="30.2" y="79.2" smashed="yes" rot="R270">
+<attribute name="BUILT_BY" value="EMA_UL_Team" x="30.2" y="79.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C3225X7S2A335M200AB" x="30.2" y="79.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="28.965" y="84.0766" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="SOURCELIBRARY" value="TDK_2015_05_22" x="30.2" y="79.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="29.565" y="80.9272" size="1.27" layer="27" ratio="6" rot="SR270"/>
+<attribute name="VENDOR" value="TDK" x="30.2" y="79.2" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C2" library="SiPM_1uF" package="CAP_3225_TDK-M" value="C3225X7R2A105K200AACAP_3225_TDK-M" x="33.5" y="79.2" smashed="yes" rot="R270">
+<attribute name="BUILT_BY" value="EMA_UL_Team" x="33.5" y="79.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C3225X7R2A105K200AA" x="33.5" y="79.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="32.165" y="84.0766" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="SOURCELIBRARY" value="TDK_2015_05_22" x="33.5" y="79.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="32.865" y="80.9272" size="1.27" layer="27" ratio="6" rot="SR270"/>
+<attribute name="VENDOR" value="TDK" x="33.5" y="79.2" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="VIN">
-<contactref element="C1" pad="1"/>
-<contactref element="C2" pad="1"/>
 <contactref element="R1" pad="2"/>
 <contactref element="MPPC" pad="1"/>
 <polygon width="0.1" layer="1">
@@ -1593,14 +1593,31 @@ design rules under a new name.</description>
 <via x="32.6" y="83.5" extent="1-16" drill="0.35"/>
 <via x="34.4" y="83.5" extent="1-16" drill="0.35"/>
 <via x="35.9" y="83.5" extent="1-16" drill="0.35" diameter="0.55"/>
+<contactref element="C1" pad="1"/>
+<contactref element="C2" pad="1"/>
+<wire x1="35.9" y1="83.5" x2="35.93" y2="86.1" width="0" layer="19" extent="1-1"/>
+<wire x1="34.4" y1="83.5" x2="35.9" y2="83.5" width="0" layer="19" extent="1-1"/>
+<wire x1="34.4" y1="82.5" x2="34.4" y2="83.5" width="0" layer="19" extent="1-1"/>
+<wire x1="32.6" y1="82.5" x2="34.4" y2="82.5" width="0" layer="19" extent="1-1"/>
+<wire x1="32.6" y1="83.5" x2="32.6" y2="82.5" width="0" layer="19" extent="1-1"/>
+<wire x1="30.9" y1="82.5" x2="32.6" y2="82.5" width="0" layer="19" extent="1-1"/>
+<wire x1="30.9" y1="83.5" x2="30.9" y2="82.5" width="0" layer="19" extent="1-1"/>
+<wire x1="30.2" y1="81.1812" x2="30.9" y2="82.5" width="0" layer="19" extent="1-1"/>
+<wire x1="29.1" y1="82.5" x2="30.2" y2="81.1812" width="0" layer="19" extent="1-1"/>
+<wire x1="29.1" y1="83.5" x2="29.1" y2="82.5" width="0" layer="19" extent="1-1"/>
+<wire x1="27.8" y1="79.9747" x2="30.2" y2="81.1812" width="0" layer="19" extent="1-1"/>
+<wire x1="14.6" y1="82.2" x2="27.8" y2="79.9747" width="0" layer="19" extent="1-1"/>
+<wire x1="14.6" y1="83.4" x2="14.6" y2="82.2" width="0" layer="19" extent="1-1"/>
+<wire x1="12.8" y1="82.2" x2="14.6" y2="82.2" width="0" layer="19" extent="1-1"/>
+<wire x1="12.8" y1="83.4" x2="12.8" y2="82.2" width="0" layer="19" extent="1-1"/>
+<wire x1="13.77" y1="80.5" x2="14.6" y2="82.2" width="0" layer="19" extent="1-1"/>
+<wire x1="33.5" y1="81.1812" x2="27.8" y2="79.9747" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="AMP1" pad="EPAD"/>
 <contactref element="AMP1" pad="3"/>
 <contactref element="AMP2" pad="EPAD"/>
 <contactref element="AMP3" pad="EPAD"/>
-<contactref element="C1" pad="2"/>
-<contactref element="C2" pad="2"/>
 <contactref element="R1" pad="1"/>
 <contactref element="R2" pad="2"/>
 <contactref element="AMP2" pad="3"/>
@@ -1651,6 +1668,46 @@ design rules under a new name.</description>
 <via x="47" y="87.9" extent="1-16" drill="0.35"/>
 <via x="47" y="86.6" extent="1-16" drill="0.35"/>
 <via x="38.4" y="83.6" extent="1-16" drill="0.35"/>
+<contactref element="C1" pad="2"/>
+<contactref element="C2" pad="2"/>
+<wire x1="48.3278" y1="81.6" x2="49.8" y2="84.2278" width="0" layer="19" extent="1-16"/>
+<wire x1="46.27" y1="79.4812" x2="48.3278" y2="81.6" width="0" layer="19" extent="1-16"/>
+<wire x1="45.22" y1="77.42" x2="46.27" y2="79.4812" width="0" layer="19" extent="1-16"/>
+<wire x1="44.92365" y1="74.69585" x2="45.22" y2="77.42" width="0" layer="19" extent="16-16"/>
+<wire x1="41.5722" y1="73" x2="44.585" y2="74.69585" width="0" layer="19" extent="16-16"/>
+<wire x1="41.4" y1="71.5722" x2="41.5722" y2="73" width="0" layer="19" extent="1-16"/>
+<wire x1="40.155" y1="74.77585" x2="41.5722" y2="73" width="0" layer="19" extent="1-16"/>
+<wire x1="39.52" y1="77.5" x2="40.155" y2="74.77585" width="0" layer="19" extent="1-1"/>
+<wire x1="35.9" y1="77.2" x2="39.52" y2="77.5" width="0" layer="19" extent="1-1"/>
+<wire x1="34.27" y1="75.3812" x2="35.9" y2="77.2" width="0" layer="19" extent="1-1"/>
+<wire x1="43" y1="68.3" x2="41.4" y2="71.5722" width="0" layer="19" extent="1-1"/>
+<wire x1="43" y1="67" x2="43" y2="68.3" width="0" layer="19" extent="1-1"/>
+<wire x1="45.4" y1="67.56" x2="43" y2="67" width="0" layer="19" extent="1-1"/>
+<wire x1="47.8" y1="67.1" x2="45.4" y2="67.56" width="0" layer="19" extent="1-1"/>
+<wire x1="47.8" y1="68.3" x2="47.8" y2="67.1" width="0" layer="19" extent="1-1"/>
+<wire x1="47" y1="86.6" x2="49.8" y2="84.2278" width="0" layer="19" extent="1-1"/>
+<wire x1="47" y1="87.9" x2="47" y2="86.6" width="0" layer="19" extent="1-1"/>
+<wire x1="44.46" y1="87.23" x2="47" y2="86.6" width="0" layer="19" extent="1-1"/>
+<wire x1="41.8" y1="87.8" x2="44.46" y2="87.23" width="0" layer="19" extent="1-1"/>
+<wire x1="41.8" y1="86.6" x2="41.8" y2="87.8" width="0" layer="19" extent="1-1"/>
+<wire x1="38.47" y1="86.1" x2="41.8" y2="86.6" width="0" layer="19" extent="1-1"/>
+<wire x1="38.4" y1="83.6" x2="38.47" y2="86.1" width="0" layer="19" extent="1-1"/>
+<wire x1="40.5378" y1="82.15" x2="38.4" y2="83.6" width="0" layer="19" extent="1-1"/>
+<wire x1="30.2" y1="77.2188" x2="34.27" y2="75.3812" width="0" layer="19" extent="1-1"/>
+<wire x1="27.8" y1="76.9" x2="30.2" y2="77.2188" width="0" layer="19" extent="1-1"/>
+<wire x1="26.3347" y1="77.07" x2="27.8" y2="76.9" width="0" layer="19" extent="1-1"/>
+<wire x1="27.8" y1="78.4253" x2="27.8" y2="76.9" width="0" layer="19" extent="1-1"/>
+<wire x1="50.43" y1="77.5" x2="48.3278" y2="81.6" width="0" layer="19" extent="1-16"/>
+<wire x1="51.065" y1="74.77585" x2="50.43" y2="77.5" width="0" layer="19" extent="1-1"/>
+<wire x1="54.1" y1="75.7" x2="51.065" y2="74.77585" width="0" layer="19" extent="1-1"/>
+<wire x1="54.1" y1="76.8" x2="54.1" y2="75.7" width="0" layer="19" extent="1-1"/>
+<wire x1="56.52" y1="76.25" x2="54.1" y2="75.7" width="0" layer="19" extent="1-1"/>
+<wire x1="53.9878" y1="73.24" x2="54.1" y2="75.7" width="0" layer="19" extent="1-1"/>
+<wire x1="14.6" y1="76.2" x2="26.3347" y2="77.07" width="0" layer="19" extent="1-1"/>
+<wire x1="14.6" y1="75.2" x2="14.6" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="12.9" y1="76.2" x2="14.6" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="12.9" y1="75.2" x2="12.9" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="33.5" y1="77.2188" x2="43" y2="67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+FB">
 <contactref element="AMP1" pad="7"/>
